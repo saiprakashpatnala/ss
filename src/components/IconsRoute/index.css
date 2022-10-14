@@ -1,0 +1,13 @@
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  min-height: 30vh;
+  justify-content: space-between;
+  padding: 20px;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

@@ -1,0 +1,46 @@
+.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+.p-con {
+  background-color: #3adb1a;
+  padding: 10px;
+}
+.person-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50px;
+}
+.person-name {
+  color: #ffffff;
+  font-size: 43px;
+  font-family: 'Caveat';
+  margin: 12px;
+  font-weight: bold;
+}
+
+.email {
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'Roboto';
+  margin: 12px;
+  font-weight: bold;
+}
+
+.age {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 12px;
+  font-size: 23px;
+}
+@media screen and (max-width: 767px) {
+  .person-img {
+    height: 75px;
+    width: 75px;
+    border-radius: 30px;
+  }
+}

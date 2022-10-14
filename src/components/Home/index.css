@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.home-con {
+  padding: 20px;
+}
+.list-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 7px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.service-img {
+  height: 200px;
+  width: 200px;
+}
+.list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebeae8;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.search-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0ede6;
+  border-radius: 5px;
+  padding: 12px;
+}
+.inp {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .service-img {
+    height: 55px;
+    width: 55px;
+  }
+  .name {
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+}

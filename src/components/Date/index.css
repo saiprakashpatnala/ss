@@ -1,0 +1,45 @@
+.date-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  background-color: #db7b1a;
+}
+.inp-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.sub-button {
+  background-color: #4382e8;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 12px;
+  border: none;
+  outline: none;
+}
+.dt-inp {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+}
+.lab {
+  color: #1adb84;
+  font-size: 22px;
+  font-family: 'Roboto';
+  margin-bottom: 7px;
+}
+.ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 0px;
+  margin: 40px;
+}
+.d-con {
+  background-color: #db7b1a;
+  min-height: 70vh;
+}

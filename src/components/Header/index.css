@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+* {
+  margin: 0px;
+}
+.nav-el {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+}
+.name-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.smile {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.bell {
+  height: 25px;
+  width: 25px;
+}
